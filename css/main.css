@@ -1,4 +1,4 @@
-a:link, a:visted {
+a:link, a:visited {
   color: #000000
 }
 
@@ -18,13 +18,22 @@ a:hover {
   background-color: #fff;
 }
 
-/* home */
+/* header */
 
 .header-bg {
   width: 940px;
-  height: 71px;
+  height: 56px;
   background:url(../img/header-940.jpg);
+  cursor: pointer;
 }
+
+.quote {
+  text-transform: uppercase;
+  font-style: italic;
+  font-size: 14px;
+}
+
+/* home */
 
 .bird-bg {
   width: 569px;
