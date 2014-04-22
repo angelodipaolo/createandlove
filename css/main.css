@@ -57,6 +57,29 @@ ul.menu {
   text-transform: uppercase;
 }
 
+/* sub menu */
+
+.menu-row {
+  margin-top: 10px;
+}
+
+ul.sub-menu {
+  margin-left: 60px;
+  list-style: none;
+  padding: 0;
+}
+
+ul.sub-menu li {
+  display: inline-block;
+  margin-left:  18px;
+  font-size: 16px;
+  text-transform: uppercase;
+}
+
+ul.sub-menu li.selected {
+  text-decoration: underline;
+}
+
 /* footer */
 
 hr {
