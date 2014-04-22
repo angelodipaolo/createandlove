@@ -1,4 +1,4 @@
-a:link {
+a:link, a:visted {
   color: #000000
 }
 
@@ -18,6 +18,8 @@ a:hover {
   background-color: #fff;
 }
 
+/* home */
+
 .header-bg {
   width: 940px;
   height: 71px;
@@ -32,6 +34,8 @@ a:hover {
   background:url(../img/bird.jpg);
 }
 
+/* home menu */
+
 ul.menu {
   list-style-type: none;
   margin-top:20px;
@@ -43,6 +47,8 @@ ul.menu {
   line-height: 34px;
   text-transform: uppercase;
 }
+
+/* footer */
 
 hr {
   height: 2px;
@@ -58,4 +64,62 @@ hr {
 
 .copyright {
   font-weight:bold;
+}
+
+/* gallery */
+
+.gallery-row {
+  margin: 40px 0;
+}
+
+/* modal */
+
+.modal-box {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  width: 100%;
+}
+
+.modal-box {
+  position:fixed;
+  z-index:5001;
+  width:1050px;
+  height: 720px;
+}
+
+.modal-overlay {
+  opacity: 0.4;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: black;
+  width: 100%;
+  z-index: 5000;
+}
+
+.arrow {
+  display: inline-block;
+  width: 50px;
+  height: 45px;
+}
+
+.next {
+  background:url(../img/next.png);
+}
+
+.previous {
+  background:url(../img/prev.png);
+}
+
+/* modal loader */
+
+#loader {
+  background: url(../img/loading_banana.gif);
+  width: 75px;
+  height: 74px;
+  margin: auto;
+  display:block;
+  background-color:#fff;
 }
