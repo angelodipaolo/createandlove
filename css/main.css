@@ -181,6 +181,44 @@ hr {
   font-family: Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
 }
 
+/* contact */
+
+.row-contact-title {
+  margin-top: 50px;
+}
+
+.row-contact {
+  padding-left: 20px;
+  padding-right: 10px;
+}
+
+.row-contact p {
+  font-size: 16px;
+  line-height: 30px;
+  font-family: Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
+}
+
+.row-portrait {
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+
+.row-portrait p {
+  font-size: 16px;
+  line-height: 30px;
+  font-family: Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
+}
+
+.contact-portrait {
+  width: 120px;
+  height: 156px;
+}
+
+.row-contact-info {
+  min-height:483px;
+  background: url(../img/bird-light.jpg) no-repeat top right;
+}
+
 /* lightbox */
 
 /* line 6, ../sass/lightbox.sass */
@@ -365,16 +403,17 @@ hr {
   cursor: pointer;
 }
 
+/* mobile */
 
-/* iphone portrait  */
-@media only screen and (max-width : 320px) {
-  body {
-    font-size:10px;
-    width: 100%;
+@media only screen and (min-width : 569px) {
+  .desktop-hidden {
+    display: none;
   }
+}
 
-  header {
-    padding-top: 20px;
+@media only screen and (max-width : 568px) {
+  .mobile-hidden {
+    display: none;
   }
 
   [role="container"] {
@@ -382,6 +421,10 @@ hr {
     margin: auto;
     padding: 0;
     margin: 0;
+  }
+
+  header {
+    padding-top: 20px;
   }
 
   .header-bg {
@@ -401,12 +444,10 @@ hr {
   }
 
   .quote {
+    width: 320px;
     font-size: 12px;
     padding-right: 20px;
-  }
-
-  ul.menu {
-    display: none;
+    margin: auto;
   }
 
   .contact {
@@ -422,29 +463,14 @@ hr {
 
 }
 
+/* iphone portrait  */
+
+@media only screen and (max-width : 320px) {
+
+}
 
 /* iphone landscape */
+
 @media only screen and (min-width : 321px) and (max-width : 568px) {
- .wrap {
-    width: 100%;
-  }
-
-  .header-bg {
-    background: url(../img/header-594.jpg);
-    width: 297px;
-    height: 35px;
-    background-size: 297px 35px;
-    margin: auto;
-  }
-
-  .bird-bg {
-    background:url(../img/bird-233.jpg) no-repeat;
-    width: 233px;
-    height: 281px;
-  }
-
-  ul.menu {
-    display: none;
-  }
 
 }
