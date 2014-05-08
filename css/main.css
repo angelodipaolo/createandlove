@@ -165,6 +165,34 @@ hr {
   background-color: #e6e6e6;
 }
 
+.about p {
+  text-align: justify;
+  font-size: 16px;
+  line-height: 30px;
+  font-family: Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
+}
+
+.about h2 {
+  text-transform: uppercase;
+  font-size: 20px;
+  line-height: 30px;
+  font-family: Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
+}
+
+.about ul {
+  list-style: none;
+  padding-left: 10px;
+  font-size: 16px;
+  line-height: 30px;
+  font-family: Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
+}
+
+.fancy-corner {
+  background-image: url(../img/fancy-corner.png);
+  background-position: top right;
+  background-repeat: no-repeat;
+}
+
 .carly-photo {
   margin-bottom: 20px;
 }
@@ -172,19 +200,47 @@ hr {
 .hello-world {
   display: inline-block;
   margin-top: 20px;
+  margin-bottom: 100px;
+}
+
+.about-photo {
+  display: block;
+  margin: auto;
+
+}
+.about-photo-baby {
+  width: 262px;
+  height: 331px;
+  margin-top: 30px;
+  margin-bottom: 5px;
+}
+
+.about-photo-baby-text {
+  margin-top: 64px;
+}
+
+.about-photo-wedding {
+  width: 300px;
+  height: 374px;
+  margin-top: 50px;
+  margin-bottom: 5px;
+}
+
+.about-photo-working {
+  margin-top: 20px;
   margin-bottom: 20px;
 }
 
-.about p {
-  font-size: 16px;
-  line-height: 30px;
-  font-family: Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
+.about .about-caption {
+  text-align: center;
+  font-style: italic;
+  font-size: 14px;
 }
 
 /* contact */
 
 .row-contact-title {
-  margin-top: 50px;
+  margin-top: 25px;
 }
 
 .row-contact {
